@@ -1,16 +1,15 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
-
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.bg-pink{
-	background-color:pink;
-}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(
+    109.6deg,
+    rgba(253, 199, 141, 1) 11.3%,
+    rgba(249, 143, 253, 1) 100.2%
+  );
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  h2, h3, h4 {
+    background: linear-gradient(darkblue, darkred);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
